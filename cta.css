@@ -1,0 +1,4 @@
+.cta{background:var(--charcoal);color:#fff;padding:48px var(--pad-x)}
+.cta-inner{max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:clamp(24px,5vw,64px);flex-wrap:wrap}
+.cta h2{font-family:var(--head);font-weight:600;font-size:clamp(26px,3vw,32px);letter-spacing:.03em;margin:0}
+.cta p{font-size:17px;color:#d6d6d6;margin:4px 0 0}

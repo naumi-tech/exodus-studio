@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Mrs+Saint+Delafield&display=swap');
+:root{--gold:#e0a53e;--gold-hover:#f0bf62;--gold-text:#b07a1c;--ink:#141414;--black:#0b0b0b;--charcoal:#161616;--light:#f5f4f2;--light-2:#ecebe8;--rule:#e2dfda;--head:'Barlow Condensed',sans-serif;--body:'Barlow',sans-serif;--pad-x:clamp(20px,4vw,48px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;font-family:var(--body);color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:var(--gold);text-decoration:none}
+a:hover{color:var(--gold-hover)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.container{max-width:1240px;margin:0 auto}
+.section{padding:clamp(64px,8vw,100px) var(--pad-x)}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.2em;color:var(--gold-text);text-transform:uppercase}
+.title{font-family:var(--head);font-weight:600;font-size:clamp(36px,4vw,48px);margin:8px 0 0}
+.rule{width:44px;height:2px;background:var(--gold);margin:16px 0 0}
+.center{text-align:center}.center .rule{margin-left:auto;margin-right:auto}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;font-size:14px;font-weight:600;letter-spacing:.08em;border-radius:3px;text-transform:uppercase;transition:background .2s,color .2s,border-color .2s}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-gold:hover{background:var(--gold-hover);color:var(--ink)}
+.btn-outline{border:1px solid rgba(255,255,255,.7);color:#fff}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.photo{position:relative;background:var(--charcoal);overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}

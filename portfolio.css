@@ -1,0 +1,12 @@
+.portfolio{background:var(--light-2)}
+.portfolio .center{margin-bottom:48px}
+.portfolio .center p{font-size:17px;color:#3a3a3a;margin:20px 0 0}
+.work-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:24px}
+.work-card{display:flex;flex-direction:column;background:#fff;color:var(--ink);border-radius:4px;overflow:hidden;transition:box-shadow .2s}
+.work-card:hover{color:var(--ink);box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.work-card .photo{aspect-ratio:16/9}
+.work-meta{padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.work-kind{font-size:12px;font-weight:600;letter-spacing:.16em;color:var(--gold-text)}
+.work-title{font-family:var(--head);font-weight:600;font-size:21px;margin-top:4px}
+.play{width:40px;height:40px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.portfolio-cta{display:flex;justify-content:center;margin-top:44px}

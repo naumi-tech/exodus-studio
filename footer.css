@@ -1,0 +1,13 @@
+.footer{background:var(--black);color:#cfcfcf;padding:56px var(--pad-x) 28px;font-size:14px}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:40px}
+.footer-col{display:flex;flex-direction:column;gap:12px;line-height:1.5}
+.footer h4{font-weight:600;letter-spacing:.14em;color:#fff;font-size:13px;margin:0}
+.footer a{color:#cfcfcf}
+.footer a:hover{color:var(--gold)}
+.footer .brand-name{font-size:26px;color:#fff}
+.footer .brand-sub{font-size:10px}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.socials{display:flex;gap:10px}
+.socials a{width:44px;height:44px;border-radius:50%;border:1px solid #555;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:600}
+.socials a:hover{border-color:var(--gold);color:var(--gold)}
+.copyright{max-width:1240px;margin:44px auto 0;padding-top:20px;border-top:1px solid #222;font-size:13px;color:#8a8a8a}
