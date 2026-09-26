@@ -2,12 +2,12 @@
 
 Static site: plain HTML, CSS and JS. No build step.
 
-## Structure
-- index.html — the page, with one commented block per section
-- css/base.css — colors, fonts, buttons, shared styles
-- css/header.css, services.css, portfolio.css, about.css, cta.css, footer.css — one file per section
-- js/main.js — mobile menu + footer year
-- images/ — photos (see images/README.md)
+## Files (all in root)
+- index.html: the page, one commented block per section
+- base.css: colors, fonts, buttons, shared styles
+- header.css, services.css, portfolio.css, about.css, cta.css, footer.css: one per section
+- main.js: mobile menu + footer year
+- Images to add: hero-studio.jpg (2400×1200), work-1.jpg, work-2.jpg, work-3.jpg (1280×720), about.jpg (1400×800)
 
 ## Deploy
 1. Push this folder to a GitHub repo.
