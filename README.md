@@ -8,7 +8,7 @@ Static site: plain HTML, CSS and JS. No build step.
 - base.css: colors, fonts, buttons, shared styles
 - header.css, services.css, portfolio.css, about.css, cta.css, footer.css: one per section
 - main.js: mobile menu + footer year
-- Images to add: hero-studio.jpg (2400×1200), work-1.jpg, work-2.jpg, work-3.jpg (1280×720), about.jpg (1400×800)
+- Images to add: hero-studio.png (included, low-res; replace with a 2400×1200 original), work-1.jpg, work-2.jpg, work-3.jpg (1280×720), about.jpg (1400×800)
 
 ## Deploy
 1. Push this folder to a GitHub repo.
