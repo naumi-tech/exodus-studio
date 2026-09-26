@@ -3,7 +3,8 @@
 Static site: plain HTML, CSS and JS. No build step.
 
 ## Files (all in root)
-- index.html: the page, one commented block per section
+- index.html (home), services.html, portfolio.html, about.html, contact.html: one page per section
+- page.css: inner-page header + contact page styles
 - base.css: colors, fonts, buttons, shared styles
 - header.css, services.css, portfolio.css, about.css, cta.css, footer.css: one per section
 - main.js: mobile menu + footer year

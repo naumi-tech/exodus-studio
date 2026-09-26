@@ -1,0 +1,9 @@
+.page-hero-copy{padding:clamp(56px,8vw,100px) 0 clamp(56px,7vw,88px);max-width:640px}
+.page-hero h1{font-size:clamp(44px,6vw,72px)}
+.page-hero .hero-rule{margin:24px 0}
+.page-hero p{margin:0}
+.contact{background:var(--light)}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px}
+.contact-card{display:flex;flex-direction:column;gap:10px;background:#fff;color:var(--ink);padding:32px;border-radius:4px;transition:box-shadow .2s}
+a.contact-card:hover{color:var(--ink);box-shadow:0 10px 30px rgba(0,0,0,.12)}
+.contact-value{font-family:var(--head);font-weight:600;font-size:24px;overflow-wrap:anywhere}
