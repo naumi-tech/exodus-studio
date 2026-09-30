@@ -112,3 +112,4 @@ body{-webkit-font-smoothing:antialiased}
 .exodus-footer .exodus-brand-sub{font-size:10px}
 .exodus-footer-h{font-family:var(--wp--preset--font-family--body);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin:0 0 14px!important}
 .exodus-copyright{max-width:1240px;margin:44px auto 0!important;padding-top:20px;border-top:1px solid #222;font-size:13px;color:#8a8a8a}
+@media (max-width:820px) and (orientation:portrait){.exodus-hero .wp-block-cover__image-background{object-position:20% center}.exodus-hero .wp-block-cover__background{background:linear-gradient(180deg,rgba(8,8,8,.9) 0%,rgba(8,8,8,.65) 45%,rgba(8,8,8,.2) 100%)!important}}
