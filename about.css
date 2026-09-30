@@ -1,6 +1,7 @@
 .about{background:#fff}
 .about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(32px,6vw,72px);align-items:center}
-.about .photo{aspect-ratio:7/4;border-radius:3px}
+.about .photo{aspect-ratio:1;max-width:520px;border-radius:3px}
+.about .photo img{object-position:center}
 .about .rule{margin-bottom:24px}
 .about p{font-size:16px;line-height:1.7;color:#333;margin:0 0 14px;text-wrap:pretty}
 .signature{font-family:'Mrs Saint Delafield',cursive;font-size:44px;line-height:1;margin-top:22px}

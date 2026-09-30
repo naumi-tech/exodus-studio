@@ -1,20 +1,17 @@
-# Exodus Studio WordPress theme
+# Exodus Studio Productions website
 
-## Install (LocalWP or any WordPress site)
-1. Zip the `exodus-theme` folder (if it isn't already).
-2. WordPress dashboard → Appearance → Themes → Add New → Upload Theme → choose the zip → Install → Activate.
-3. On activation the theme creates Home, Services, Portfolio, About and Contact, sets Home as the front page and switches to /page-name/ URLs.
+Static site: plain HTML, CSS and JS. No build step.
 
-## Editing
-- Page content: Pages → edit any page. Every heading, paragraph, button and image is a normal block.
-- Header, footer and menu: Appearance → Editor → Patterns → Template Parts.
-- Colors and fonts: Appearance → Editor → Styles.
-- Section patterns (hero, services, portfolio, about, CTA, contact) are in the block inserter under "Exodus Studio".
+## Files (all in root)
+- index.html (home), services.html, portfolio.html, about.html, contact.html: one page per section
+- page.css: inner-page header + contact page styles
+- base.css: colors, fonts, buttons, shared styles
+- header.css, services.css, portfolio.css, about.css, cta.css, footer.css: one per section
+- main.js: mobile menu + footer year
+- Images to add: hero-studio.png (included, low-res; replace with a 2400×1200 original), work-1.jpg, work-2.jpg, work-3.jpg (1280×720), about.jpg (1400×800)
 
-## Photos
-- Portfolio thumbnails and the About photo are dark placeholders. Click one → "Replace" / "Add media" in the toolbar.
-- The home hero uses assets/images/hero-studio.jpg (graded studio photo, 1920×1080). Replace it on the Home page via the Cover block → "Replace".
-
-## Notes
-- If WordPress shows "This block contains unexpected content", click "Attempt Block Recovery".
-- Add a contact form with a plugin such as WPForms Lite or Contact Form 7, then drop it into the Contact page.
+## Deploy
+1. Push this folder to a GitHub repo.
+2. In Vercel: Add New → Project → import the repo.
+3. Framework preset: **Other**. Leave build command and output directory empty. Deploy.
+4. Add the domain (exodusstudio.ca) under Project → Settings → Domains and update DNS at the registrar.
