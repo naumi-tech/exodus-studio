@@ -1,0 +1,17 @@
+.sc-band{background:#fff1e8 !important;color:#1a1a1a;padding:56px 0}
+.sc-inner{display:flex;align-items:center;gap:40px;flex-wrap:wrap}
+.sc-logo{display:flex;flex-direction:column;align-items:center;gap:6px;color:#ff5500;text-decoration:none;font-weight:700;letter-spacing:.04em;font-size:15px}
+.sc-logo span{color:#1a1a1a}
+.sc-logo:hover{opacity:.85}
+.sc-copy{flex:1 1 320px;min-width:0}
+.sc-copy h3{margin:0 0 6px;font-size:26px;color:#1a1a1a}
+.sc-copy p{margin:0;color:#3a3a3a;text-wrap:pretty}
+.sc-band .btn{background:#ff5500;color:#fff;border-color:#ff5500}
+.sc-band .btn:hover{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.sc-hero{position:absolute;right:calc(var(--pad-x) + 12vw);top:50%;transform:translateY(-10%);display:flex;flex-direction:column;align-items:center;gap:8px;color:#ff5500;text-decoration:none;text-align:center}
+.sc-hero svg{width:210px;height:70px}
+.sc-hero-name{font-weight:700;letter-spacing:.04em;font-size:26px;color:#fff}
+.sc-hero-sub{font-size:20px;color:#fff;opacity:.9}
+.sc-hero:hover{color:#ff7a33}
+.sc-hero:hover .sc-hero-sub{text-decoration:underline}
+@media (max-width:820px){.sc-hero{position:relative;right:auto;top:auto;transform:none;order:4;align-items:flex-start;text-align:left;padding:0 var(--pad-x) 48px}}
