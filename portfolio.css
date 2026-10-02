@@ -27,3 +27,27 @@
 .studio-gallery .photo{aspect-ratio:1056/612;border-radius:3px}
 .studio-gallery .g-wide{grid-column:span 2;grid-row:span 2}
 @media (max-width:640px){.studio-gallery .g-wide{grid-column:auto;grid-row:auto}}
+.studio-story{display:flex;flex-direction:column;gap:clamp(40px,6vw,72px)}
+.studio-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:clamp(28px,5vw,64px);align-items:center}
+.studio-row.flip .studio-photos{order:2}
+@media (max-width:860px){.studio-row.flip .studio-photos{order:0}}
+.studio-photos{display:flex;flex-direction:column;gap:16px}
+.studio-photos .photo{aspect-ratio:1056/612;border-radius:3px}
+.studio-copy{max-width:580px}
+.studio-copy h3{font-family:var(--head);font-weight:600;font-size:clamp(24px,2.4vw,30px);letter-spacing:.03em;text-transform:uppercase;margin:0 0 14px}
+.studio-copy p{font-size:16px;line-height:1.7;color:#444;margin:0 0 14px;text-wrap:pretty}
+.studio-copy .studio-lead{font-size:clamp(18px,1.6vw,21px);line-height:1.6;color:var(--ink)}
+.studio-copy ul{margin:0 0 14px;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.studio-copy li{font-size:16px;line-height:1.6;color:#444}
+.studio-copy li::marker{color:var(--gold)}
+.studio-copy li strong{color:var(--ink);font-weight:600}
+.videos.alt{background:var(--light)}
+.video-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:20px}
+.video{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;margin:0;background:var(--charcoal);border-radius:3px;overflow:hidden;cursor:pointer}
+.video img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease,opacity .3s}
+.video:hover img{transform:scale(1.03);opacity:.85}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video .play{position:absolute;left:50%;top:50%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:var(--gold);box-shadow:0 6px 20px rgba(0,0,0,.35);transition:background .2s}
+.video .play::after{content:"";position:absolute;left:26px;top:20px;border-style:solid;border-width:12px 0 12px 19px;border-color:transparent transparent transparent var(--ink)}
+.video:hover .play{background:var(--gold-hover)}
+.video-more{margin-top:32px}
