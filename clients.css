@@ -8,3 +8,9 @@
 .artists-band{background:var(--light)}
 .artist-list{list-style:none;padding:0;margin:40px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:14px 32px}
 .artist-list li{font-size:17px;padding-bottom:14px;border-bottom:1px solid rgba(0,0,0,.08)}
+.review{padding:0;overflow:hidden}
+.review>blockquote,.review>figcaption{padding:0 32px}
+.review>figcaption{padding-bottom:32px}
+.review-photo{width:100%;height:auto;aspect-ratio:676/222;object-fit:cover;display:block;background:#111}
+.collage-row{display:flex;flex-wrap:wrap;gap:24px;margin-top:40px}
+.collage-row img{width:286px;max-width:100%;height:auto;display:block;border-radius:4px}
