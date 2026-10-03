@@ -1,0 +1,10 @@
+.review-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:24px;margin-top:40px}
+.review{margin:0;padding:32px;background:var(--light);border-radius:4px;display:flex;flex-direction:column;gap:20px}
+.review blockquote{margin:0;font-size:16px;line-height:1.7;text-wrap:pretty}
+.review blockquote::before{content:"\201C";display:block;font-family:var(--head);font-size:48px;line-height:.6;color:var(--gold);margin-bottom:8px}
+.review figcaption{margin-top:auto;display:flex;flex-direction:column;gap:4px}
+.review figcaption strong{font-size:15px;letter-spacing:.06em;text-transform:uppercase}
+.review figcaption span{font-size:14px;color:var(--gold-text)}
+.artists-band{background:var(--light)}
+.artist-list{list-style:none;padding:0;margin:40px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:14px 32px}
+.artist-list li{font-size:17px;padding-bottom:14px;border-bottom:1px solid rgba(0,0,0,.08)}
