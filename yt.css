@@ -10,3 +10,4 @@
 .yt-title{font-family:var(--head);font-weight:600;font-size:24px;line-height:1.1}
 .yt-link:hover .yt-title{color:var(--gold-text)}
 @media (max-width:520px){.yt-link{flex-direction:column;align-items:flex-start}.yt-thumb{flex:none;width:100%}}
+@media (min-width:900px){.yt-link{max-width:none;gap:32px}.yt-thumb{flex-basis:420px}.yt-play{width:64px;height:44px;border-radius:11px}}
