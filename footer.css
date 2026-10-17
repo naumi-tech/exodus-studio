@@ -12,6 +12,6 @@
 .socials a:hover{border-color:var(--gold);color:var(--gold)}
 .copyright{max-width:1240px;margin:44px auto 0;padding-top:20px;border-top:1px solid #222;font-size:13px;color:#8a8a8a}
 .nomi-credit{max-width:1240px;margin:20px auto 0;display:flex;align-items:center;justify-content:center;gap:14px;color:#8a8a8a;font-size:13px}
-.nomi-credit img{width:110px;height:auto;display:block;opacity:.85}
+.nomi-credit img{width:140px;height:auto;display:block;opacity:.9}
 .nomi-credit:hover img{opacity:1}
 .footer a.nomi-credit:hover{color:var(--gold)}

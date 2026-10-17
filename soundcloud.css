@@ -1,4 +1,4 @@
-.sc-band{background:#fff1e8 !important;color:#1a1a1a;padding:56px 0}
+.sc-band{background:#fff1e8 !important;color:#1a1a1a;padding:56px var(--pad-x)}
 .sc-inner{display:flex;align-items:center;gap:40px;flex-wrap:wrap}
 .sc-logo{display:flex;flex-direction:column;align-items:center;gap:6px;color:#ff5500;text-decoration:none;font-weight:700;letter-spacing:.04em;font-size:15px}
 .sc-logo span{color:#1a1a1a}
